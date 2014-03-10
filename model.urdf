@@ -47,7 +47,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="./meshes/Body_Head_vis.dae"/>
+        <mesh filename="./meshes/Body_Head.stl"/>
       </geometry>
       <material name="random">
         <color rgba="0.866667 0.866667 0.866667 1"/>
@@ -55,7 +55,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="./meshes/Body_Head_col.dae"/>
+        <mesh filename="./meshes/Body_Head.stl"/>
       </geometry>
     </collision>
   </link>
